@@ -1,0 +1,11 @@
+faiss-cpu==1.7.2
+pandas==1.5.3
+numpy==1.23.5
+huggingface_hub==0.25.0
+sentence-transformers==2.2.2
+Flask==2.2.5
+python-dotenv==1.0.0
+flask_cors
+selenium
+bs4
+requests

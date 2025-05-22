@@ -1,0 +1,175 @@
+/* === Base === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Layout Containers === */
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.nav-button {
+  padding: 10px 16px;
+  background-color: #e0e0e0;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #d0d0d0;
+}
+
+/* === Forms === */
+input,
+select {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group input {
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* === Buttons === */
+button,
+.primary-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover,
+.primary-button:hover {
+  background-color: #2980b9;
+}
+
+.primary-button {
+  align-self: flex-start;
+}
+
+/* === Cards === */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card h3 {
+  color: #34495e;
+}
+
+.card p {
+  color: #555;
+}
+
+/* === Alerts === */
+.error {
+  color: #e74c3c;
+  margin-top: 1rem;
+}
+
+.success {
+  color: #27ae60;
+  margin-top: 1rem;
+}
+
+/* === Search Info === */
+.search-source {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f0f8ff;
+  border-left: 4px solid #3498db;
+  border-radius: 6px;
+}
+
+.abstract-preview {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.app-title {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: #2c3e50;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #2980b9;
+}
+
